@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script>
+    function zapr(){
+        let checkboxes = document.getElementsByClassName('box');
+        let checkboxesChecked = [];
+    for(var i=0;i<checkboxes.length;i++){
+                    if(checkboxes[i].checked){
+                        checkboxesChecked.push(checkboxes[i].value);
+                        document.write(i);
+                        alert(checkboxes[i].value);
+                        console.log(i);
+                    }
+                }
+            }
+    </script>
+    </hear>
+    <body>
+    <input type="checkbox" class="box" name="pr" value="ОИТ"/>ОИТ
+            <input type="checkbox" class="box" name="pr" value="ОАП"/>ОАП
+            <input type="checkbox" class="box" name="pr" value="История"/>История
+            <input type="checkbox" class="box" name="pr" value="Физика"/>Физика
+            <input type="checkbox" class="box" name="pr" value="Математика"/>Математика
+            <button type="button" onclick="zapr()">Напечатать</button>
+    </body>
+    </html>

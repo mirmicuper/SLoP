@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
+    <title>Form</title>
+</head>
+<body>
+    <form name="data">
+        <fieldset>
+            <legend>Форма студента ФИТ</legend>
+            <p>
+                <textarea id="textareal" cols="30" rows="5" placeholder="Факультет Информационных Технологий"></textarea>
+            </p>
+            <p>
+                <input type="text" name="userLN" placeholder="Фамилия" >
+            </p>
+            <p>
+                <input type="text" name="userFN" placeholder="Имя">
+            </p>
+            <p>
+                <label class="">Специальность</label>
+                <select name="spec">
+                    <option selected>Выбери специальность</option>
+                    <option value="ИСиТ">ИСиТ</option>
+                    <option value="ПОИТ">ПОИТ</option>
+                    <option value="ПОИБМС">ПОИБМС</option>
+                    <option value="ДЭиВИ">ДЭиВИ</option>
+                </select>
+            </p>
+            <p>
+                <p>Курс</p>
+                <input type="radio" value="1" name="kurs">1
+                <input type="radio" value="2" name="kurs">2
+                <input type="radio" value="3" name="kurs">3
+                <input type="radio" value="4" name="kurs">4
+            </p>
+            <p>
+                <p>Предметы</p>
+                <input type="checkbox" id="ch1" name="pred" value="ОАиП">ОАиП
+                <input type="checkbox" id="ch2" name="pred" value="СЯП">СЯП
+                <input type="checkbox" id="ch3" name="pred" value="КЯРД">КЯРД
+                <input type="checkbox" id="ch4" name="pred" value="ТРПО">ТРПО
+            </p>
+            <p>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </p>
+            <p>
+                <input type="button" name="write" value="Напечатать" onclick="wright()">
+            </p>
+        </fieldset>
+    </form>
+    <div class="div"></div>
+</body>
+</html>

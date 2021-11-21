@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Задание 1</h2>
+    <p id="p1" onmouseover="fun1()" onmouseout="fun1_1()">Создать программу на JS, изменяющую цвет слова в тексте при наведении курсора мыши (событие Onmouseover, свойство style.color)</p>
+    <h2>Задание 2</h2>
+    <p id="p2" onclick="fun2()">Создать программу на JS, изменяющую размер шрифта слова щелчком мыши (событие Onclick, свойство style.fontSize)</p>
+    <h2>Задание 3</h2>
+    <p>Создать программу на JS замены картинки на другую при щелчке мышью с помощью метода getElementById и свойства src</p>
+    <img id="img1" onclick="fun3()" src="images/1234455.jpeg">
+    <h2>Задание 4</h2>
+    <p id="img2" onclick="fun4()">Создать программу на JS, заменяющую текст изображением, с использованием метода getElementById и свойства innerHTML</p>
+    <h2>Задание 5</h2>
+    <p>Создать эффекты увеличения размера рисунка (свойство width) при наведении на него курсора мыши и возврата к первоначальному размеру при уходе курсора с рисунка (событие onmouseout)</p>
+    <img src="images/1234455.jpeg" onmouseout="resize(this, 643, 358)" onmouseover="resize(this, 900, 500)">
+    <h2>Задание 6</h2>
+    <p id="addFrame" onclick="getFrame()">Нарисовать цветную рамку произвольного стиля вокруг любого абзаца при двойном щелчке (событие dblclick) на абзац</p>
+</body>
+</html>

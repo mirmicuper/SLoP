@@ -1,0 +1,31 @@
+body {
+    background-color: antiquewhite;
+    color: rgb(49, 47, 59);
+}
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(49, 47, 59);
+}
+.box_small {
+    position: relative;
+    text-align: center;
+}
+.box {
+    position: relative;
+    text-align: center;
+}
+input {
+    position: relative;
+    width: 180px;
+    height: 60px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: rgb(49, 47, 59);
+    background: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin: 3px;
+}

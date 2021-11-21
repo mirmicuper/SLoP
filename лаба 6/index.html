@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Laba-6</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+  <h1>Лабораторная работа №6</h1>
+<div class="box_small">
+  <input type="button" value="Яндекс" onclick="yand()">
+  <input type="button" value="Google" onclick="ggle()">
+  <input type="button" value="Wiki" onclick="wiki()">
+  <input type="button" value="Google maps" onclick="gglemaps()">
+  <input type="button" value="New window" onclick="newWindow()">
+</div>
+  <table border="1" align="center">
+    <tr>
+      <td>Свойство</td>
+      <td>Значение</td>
+    </tr>
+    <tr>
+      <td>всю информацию о браузере пользователя navigator.userAgent</td>
+      <td id="infUserBrowser"</td>
+    </tr>
+    <tr>
+      <td>версию браузера appVersion</td>
+      <td id="browserVersion"></td>
+    </tr>
+    <tr>
+      <td>название браузера appName</td>
+      <td id="browserName"></td>
+    </tr>
+    <tr>
+      <td>кодовое название браузера appCodeName</td>
+      <td id="browserCodeName"></td>
+    </tr>
+    <tr>
+      <td>ОС, которую использует пользователь platform</td>
+      <td id="userOS"></td>
+    </tr>
+    <tr>
+      <td>включена ли поддержка Java в браузере javaEnabled()</td>
+      <td id="browserJava"></td>
+    </tr>
+    <tr>
+      <td>ширину и высоту экрана Screen width height</td>
+      <td id="screenWidthHeight"></td>
+    </tr>
+    <tr>
+      <td>глубину цвета colorDepth</td>
+      <td id="deepColor"></td>
+    </tr>
+    <tr>
+      <td>URL, которые были посещены в данном окне браузера History length</td>
+      <td id="URLHistory"></td>
+    </tr>
+    <tr>
+      <td>URL текущего документа Location href</td>
+      <td id="thisURL"></td>
+    </tr>
+    <tr>
+      <td>путь к загруженному документу pathnam</td>
+      <td id="sourceDoc"></td>
+    </tr>
+    <tr>
+      <td>имя домена загруженного документа host</td>
+      <td id="domenNameDoc"></td>
+    </tr>
+  </table>
+  <div class="box">
+<input type="button" onclick="iub()" value="Инф о браузере">
+<input type="button" onclick="browver()" value="Версия браузера">
+<input type="button" onclick="browname()" value="Имя браузера">
+<input type="button" onclick="browcodename()" value="КодИмя браузера">
+<input type="button" onclick="useros()" value="ОС">
+<input type="button" onclick="javaon()" value="Поддержка Java">
+<input type="button" onclick="screenwidhei()" value="высота ширина">
+<input type="button" onclick="colordeep()" value="Глубина цвета">
+<input type="button" onclick="historloc()" value="История окна">
+<input type="button" onclick="hrefloc()" value="URL текущего документа">
+<input type="button" onclick="pathamloc()" value="Путь к документу">
+<input type="button" onclick="domenhost()" value="Имя домена">
+</div>
+</body>
+</html>
