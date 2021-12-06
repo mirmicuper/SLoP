@@ -6,23 +6,25 @@ body {
     background-image: url(/images/Без\ имени-1.jpg);
     background-repeat: repeat-y;
     background-size: 100%;
-    margin: 0; /* Убираем отступы */
-    height: 100%; /* Высота страницы */
-
     background-attachment: fixed;
     background-size: cover; /* Фон занимает всю доступную площадь */
 }
 
 .header {
-    height: 135px;
-    background-color: #b6b6b621;
+    height: 85px;
+    background-color: #C4C4C410;
+}
+.headerLogo {
+    margin-left: 100px;
 }
 
-.header2 {
-    height: 175px;
-    text-align: center;
+li {
+    display: inline;
+    margin: 20px;
 }
-.logoHeader {
-    left: 0;
-    vertical-align: middle;
+
+a {
+    color: #b6b6b6;
+    text-decoration: none;
+    font-family: 'Roboto Condensed';
 }
